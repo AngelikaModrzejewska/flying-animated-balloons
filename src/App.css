@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flying-clouds {
+  background-color: #74eefc;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.mountain-left,
+.mountain-right,
+.sun,
+.cloud,
+.balloon {
+  position: absolute;
+}
+
+.cloud {
+  width: 18%;
+}
+
+.cloud:nth-child(1) {
+  top: 35%;
+  left: 20%;
+  z-index: 2;
+}
+
+.cloud:nth-child(2) {
+  top: 10%;
+  left: 23%;
+}
+
+.cloud:nth-child(3) {
+  top: 25%;
+  left: 35%;
+  z-index: 1;
+}
+
+.cloud:nth-child(4) {
+  top: 30%;
+  right: 40%;
+}
+
+.cloud:nth-child(5) {
+  top: 5%;
+  left: 30%;
+  z-index: 1;
+}
+
+.cloud:nth-child(6) {
+  top: 25px;
+  right: 15%;
+  z-index: 1;
+}
+
+.balloon:nth-child(7) {
+  width: 20%;
+  top: 15%;
+  left: 65%;
+}
+
+.balloon:nth-child(8) {
+  width: 19%;
+  top: 5%;
+  left: 10%;
+  z-index: 1;
+}
+
+.balloon:nth-child(9) {
+  width: 20%;
+  top: 18%;
+  left: 40%;
+  z-index: 1;
+}
+
+.mountain-left {
+  width: 40%;
+  bottom: -20%;
+}
+
+.mountain-right {
+  height: 50%;
+  bottom: -15%;
+  right: 0;
+}
+
+.sun {
+  width: 10%;
+  top: 1%;
+  left: 1%;
+}
