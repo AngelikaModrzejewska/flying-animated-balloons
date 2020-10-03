@@ -1,5 +1,5 @@
 {
-  "homepage": "https://angelikamodrzejewska.github.io/animated-balloons-and-clouds/",
+  "homepage": ".",
   "name": "balloon-clouds-app",
   "version": "0.1.0",
   "private": true,
@@ -35,4 +35,5 @@
       "last 1 safari version"
     ]
   }
+
 }
