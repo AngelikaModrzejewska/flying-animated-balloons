@@ -46,28 +46,28 @@ function App() {
         />
         <Animation
           className="balloon"
-          src="/air-balloon-big.png"
+          src="/airballoonbig.png"
           ratioX="0.07"
           ratioY="0.3"
         />
         <Animation
           className="balloon"
-          src="/air-balloon-mid.png"
+          src="/airballoonmid.png"
           ratioX="0.12"
           ratioY="0.4"
         />
         <Animation
           className="balloon"
-          src="/air-balloon-small.png"
+          src="/airballoonsmall.png"
           ratioX="0.15"
           ratioY="0.5"
         />
         <Mountains
-          className="mountain-left"
+          className="mountainleft"
           src="/mountain1.png"
         />
         <Mountains
-          className="mountain-right"
+          className="mountainright"
           src="/mountain2.png"
         />
         <Mountains
